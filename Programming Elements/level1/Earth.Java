@@ -6,4 +6,3 @@ public class Earth {
         System.out.println("The volume of the earth in cublic kilometres is " + v + " and in cubic miles is " + c);
     }
 }
-
