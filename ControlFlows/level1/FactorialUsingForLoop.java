@@ -1,6 +1,4 @@
-package ControlFlow.level1;
 import java.util.Scanner;
-
 public class FactorialUsingForLoop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,5 +13,6 @@ public class FactorialUsingForLoop {
             factorial *= i;
         }
         System.out.println("Factorial of " + n + " is: " + factorial);
-    }
+        scanner.close();
+    }
 }
