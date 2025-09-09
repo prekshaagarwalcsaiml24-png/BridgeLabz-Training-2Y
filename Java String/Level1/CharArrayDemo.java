@@ -12,7 +12,7 @@ public class CharArrayDemo {
         for (int i = 0; i < a1.length; i++) {
             if (a1[i] != a2[i]) return false;
         }
-        return true;
+        return true;[]
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
